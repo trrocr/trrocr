@@ -4,7 +4,6 @@
 #   - Auto-downloads Noto Sans Bengali font (Google Fonts)
 #   - Visualizes dataset samples before training (no warnings)
 #   - Trains on English, Bengali, and MIXED images
-#   - Optimized for 8GB VRAM (RTX 3070)
 # ============================================================
 # pip install transformers datasets pillow torch torchvision
 #             evaluate accelerate jiwer sentencepiece requests
@@ -561,4 +560,5 @@ if __name__ == "__main__":
     print("  DONE!")
     print(f"  Model   : {os.path.abspath(OUTPUT_DIR)}")
     print(f"  Preview : {os.path.abspath(VIZ_PATH)}")
+
     print("=" * 60)
